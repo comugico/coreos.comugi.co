@@ -4,3 +4,6 @@
 [submodule "reverseproxy"]
 	path = reverseproxy
 	url = https://github.com/comugico/nginx-reverseproxy-dockerfile.git
+[submodule "aipo2"]
+	path = aipo2
+	url = https://github.com/comugico/aipo-dockerfile.git
