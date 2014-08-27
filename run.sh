@@ -10,8 +10,9 @@ sudo systemctl restart aipo.service
 popd
 
 pushd ./aipo
-docker build --tag="aipo2" .
-docker run -d --name="aipo2" aipo2
+#docker build --tag="aipo2" .
+#docker run -d --name="aipo2" aipo2
+docker run -d --name="aipo2" aipo
 sudo cp ./services/aipo2.service /etc/systemd/system/
 sudo systemctl enable aipo2.service
 sudo systemctl restart aipo2.service
